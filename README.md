@@ -22,7 +22,7 @@ The client is one of the famous bank from Mozambique.They need to predict the ch
 ## Challenges
 1.Banks takes longer time to collecting the enough data to perform analysis on issue as there is question of reliability of the data.
 2.Getting right significant column which could be the unique features to indetify the churn customer.So we used Cramer correlation.
-3.Data were highly imbalanced as there was only 1200 Bank customer records about which 82% were active customer and only 18% were churn customer, this could lead to problem of overfitting.But thsi was handled by normalizing the data.
+3.Data were highly imbalanced as there was only 1200 Bank customer records about which 82% were active customer and only 18% were churn customer, this could lead to problem of overfitting.But this was handled by normalizing the data.
 4.Choosing right ML solution so we kept in incremental approach, by using different algorithms but Random forest classifier tends to be the perefect algorithm with the best accuracy which is around 84%.
 ## Outcome
 The prediction model is build to identify the churn customer and active customer proactively and the customer were recommended with right product to continue his sevices with bank this lead to significant increase in ROI in terms of CTR by 15%-20%.
